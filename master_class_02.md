@@ -99,7 +99,7 @@ Concatenate all files that start with T or end with .txt
 
 ## PIPING
 
-If you can see text as output of a command, you can use that as an inout of another command
+If you can see text as output of a command, you can use that as an input of another command
 
 Example:
 
