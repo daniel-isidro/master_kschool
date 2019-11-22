@@ -170,3 +170,7 @@ Show line number and counts times of word
 	6:this
 	7:this
 
+Show all lines that start by "T"
+
+	grep -n "^T" Finn.txt| less
+
