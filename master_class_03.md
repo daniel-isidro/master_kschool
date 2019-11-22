@@ -119,14 +119,17 @@ Change characters
 Remove spaces (-s: squeeze)
 
 	echo "master    data    science" | tr -s " "
+
 	master data science
 
 	echo "maaaaaster    data   science" | tr -s " a"
+
 	master data science
 
 Keep certain characters
 
 	echo "maaaaaster    data   science" | tr -cd " a"
+
         aaaaa    aa   %
 
 Change delimiter "^" into "\t" (tab)
@@ -160,11 +163,13 @@ Find one word in two files at the same time, gives you those line numbers (with 
 Find how many times the word is contained in the file
 
 	grep -c this Text_example.txt
+
 	3
 
 Show line number and counts times of word
 
 	grep -n -o this Text_example.txt
+
 	2:this
 	this
 	6:this
@@ -188,4 +193,92 @@ Show all lines that start by "T"
 206:The Widows
 214:They Tip-toed Along
 218:Tom Sawyer’s Band of Robber
+
+## sed (stream editor)
+
+It's used for converting one stream into other things 
+
+	echo Sunday | sed s/day/night/
+
+	Sunnight
+
+It stops substituting after the first time
+
+	echo Sunday.day | sed s/day/night/
+
+	Sunnight.day
+
+Make global substitue
+
+	echo Sunday.day | sed s/day/night/g
+
+	Sunnight.night
+
+Make global substitue inside a file
+
+	sed 's/this/WHAAT/g' Text_example.txt
+
+	THIS LINE IS THE 1ST UPPER CASE LINE IN THIS FILE.
+	WHAAT line is the 1st lower case line in WHAAT file.
+	This Line Has All Its First Character Of The Word With Upper Case.
+
+
+	seq 5
+	1
+	2
+	3
+	4
+	5
+
+Delete lines from 2 to 4
+
+	seq 5 | sed '2,4d'
+	
+	1
+	5
+
+Delete lines 2 and 4
+
+	seq 5 | sed '2d;4d'
+
+	1
+	3
+	5
+
+Delete third line
+
+	seq 10 15 | sed '3d' 
+
+	10
+	11
+	13
+	14
+	15
+
+Delete line that contains 14
+
+	seq 10 15 | sed '/14/d'
+
+	10
+	11
+	12
+	13
+	15
+
+## Working with compressed files
+
+	zip file.zip files
+
+	unzip file.zip
+
+	zipinfo file.zip
+
+	zcat file.zip (like cat)
+
+	zless file.zip (like less)
+
+	zgrep "strin" file.zip
+
+	
+
 
