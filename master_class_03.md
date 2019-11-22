@@ -267,6 +267,8 @@ Delete line that contains 14
 
 ## Working with compressed files
 
+## zip
+
 	zip file.zip files
 
 	unzip file.zip
@@ -277,8 +279,67 @@ Delete line that contains 14
 
 	zless file.zip (like less)
 
-	zgrep "strin" file.zip
+	zgrep "string" file.zip
 
-	
+Piping on compressed files
 
+	unzip -c output.zip optd_aircraft.csv | less | head
 
+## gzip
+
+Used for small files. gzip files contain only one file
+
+Compress files and deletes original files
+
+	gzip optd_aircraft.csv optd_aircraft_4_columns.csv optd_airlines.csv optd_por_public.csv 
+
+	ls
+
+	optd_por_public.csv.gz
+	optd_aircraft.csv.gz
+	optd_aircraft_4_columns.csv.gz
+	optd_airlines.csv.gz
+
+Uncompress all files and delete .gz files
+
+	gunzip *.gz
+
+## bz2
+
+Valid for big files, usually over 128 MB. Used for Hadoop
+
+Compress all files and deletes the originals
+
+	bzip2 *.csv
+
+	optd_por_public.csv.bz2
+	optd_aircraft.csv.bz2
+	optd_aircraft_4_columns.csv.bz2
+	optd_airlines.csv.bz2
+
+Other commands
+
+	bzcat
+	bzless
+	bzgrep
+	bunzip2
+
+## tar
+
+Valid for grouping files, not necessarily compressed
+
+Put into compressed zip file
+
+	tar -czvf opentravel.gz.tar *.csv
+
+Decompress zip file
+
+	tar -xzvf ./opentravel.gz.tar	
+
+Put into compress BZ2 file
+
+	tar -cjvf opentravel.bz2.tar opentraveldata
+
+Put into uncompressed tar file for grouping
+
+	tar -cf opentravel.tar opentraveldata
