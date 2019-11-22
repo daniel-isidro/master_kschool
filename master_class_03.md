@@ -174,3 +174,18 @@ Show all lines that start by "T"
 
 	grep -n "^T" Finn.txt| less
 
+3:The Project Gutenberg EBook of Adventures of Huckleberry Finn, Complete
+6:This eBook is for the use of anyone anywhere at no cost and with almost
+11:Title: Adventures of Huckleberry Finn, Complete
+91:Testament.--Recovering the Raft.--The Wood--pile.--Pork and Cabbage.
+94:Temperance Revival.--The Duke of Bridgewater.--The Troubles of Royalty.
+100:Town.--A Lazy Town.--Old Boggs.--Dead.
+157:Trouble.
+170:The Widows
+178:They Tip-toed Along
+182:Tom Sawyer’s Band of Robbers  
+188:The Robbers Dispersed
+206:The Widows
+214:They Tip-toed Along
+218:Tom Sawyer’s Band of Robber
+
