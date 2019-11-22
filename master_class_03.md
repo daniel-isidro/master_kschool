@@ -388,3 +388,8 @@ Final script
 	FILE=$2
 	NUM_OF_COLUMNS=$(head -1 ${FILE} | tr ${DELIMITER} "\n" | wc -l)
 	paste <(seq 1 ${NUM_OF_COLUMNS}) <(head -1 ${FILE} | tr ${DELIMITER} "\n")
+
+Add one dir to environment path, at the beginning of the file
+
+	PATH=my_new_dir:$PATH
+
