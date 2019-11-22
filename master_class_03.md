@@ -97,7 +97,7 @@ Using "paste" with commands instead of files
 
 ## tr (translate)
 
-Put headers line into different lines, changing delimites "^" into "\n" (new line)
+Put headers line into different lines, changing delimiters "^" into "\n" (new line)
 
 	head -1 optd_aircraft.csv | tr "^" "\n"
 
@@ -308,7 +308,7 @@ Uncompress all files and delete .gz files
 
 Valid for big files, usually over 128 MB. Used for Hadoop
 
-Compress all files and deletes the originals
+Compress all files and delete the originals
 
 	bzip2 *.csv
 
@@ -343,3 +343,48 @@ Put into compress BZ2 file
 Put into uncompressed tar file for grouping
 
 	tar -cf opentravel.tar opentraveldata
+
+## Shell Script
+
+Let's create a script that reads the header (first line) of a CSV file and outputs each column name with an index 
+
+Find text on terminal history
+
+	CTRL + r
+
+For choosing on what program to execute the script (in this case bash):
+
+	!/bin/bash
+
+To know what program is being used
+
+	which bash
+
+	/bin/bash
+
+Execute script with chmod 777 and "#!bin/bash" on first line
+
+	./csv_number_column.sh
+
+	1	iata_code
+	2	manufacturer	
+	3	model
+	4	iata_group
+	5	iata_category
+	6	icao_code
+	7	nb_engines
+	8	aircraft_type
+	9	
+	10	
+
+Use {} for shell variables
+
+	echo ${VARIABLE}
+
+Final script
+
+	#!/bin/bash
+	DELIMITER=$1
+	FILE=$2
+	NUM_OF_COLUMNS=$(head -1 ${FILE} | tr ${DELIMITER} "\n" | wc -l)
+	paste <(seq 1 ${NUM_OF_COLUMNS}) <(head -1 ${FILE} | tr ${DELIMITER} "\n")
