@@ -393,3 +393,56 @@ Add one dir to environment path, at the beginning of the file
 
 	PATH=my_new_dir:$PATH
 
+## Running background jobs
+
+Wait for 5 seconds while executing "find" command
+
+        sleep
+
+For running processes in the background: add "&" to the end of the line
+
+        find / -name "*.txt" -exec ls -l {} \; -exec sleep 5 \; &
+
+Stop process in the foreground
+
+        CTRL + c
+
+Suspend process
+
+        CTRL + z
+
+Put process into the background
+
+        bg
+
+Bring process to the foreground
+
+        fg
+
+In prompt, "1z" means one process suspended, "1&" means one process in the background
+        
+	1z [disidro:~] 13s 146 %
+
+Show processes running
+
+        jobs
+
+Kill processes (PID: process ID)
+
+        kill %PID
+
+Show processes ran by user
+
+	ps -U root | grep find
+
+## csvkit
+
+Use csvkit with column name (or columns names separated by comma, no spaces between column names)
+
+	csvcut -d '^' -c iata_code,manufacturer optd_aircraft.csv | head
+
+Use csvsql to created a reduced table that is easily accessed
+
+	csvsql -d "^" optd_aircraft.csv > sql_aircraft.sql 
+
+
