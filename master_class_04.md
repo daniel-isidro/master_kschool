@@ -73,7 +73,7 @@ Use 'global' in functions to state a global variable (variables are local by def
 
 ## Strings
 
-Strings are immutable, so when doing 
+Strings are immutable, so when doing operations with them you always get a new object 
 
 	a='hello'
 	id(a)
@@ -88,5 +88,36 @@ Strings are immutable, so when doing
 	138977687678
 
 Use .find() instead of .index() bc .find() returns "-1" when the search term is not found, while .index() returns an error if not found
+
+Remove white spaces
+
+	"    hhjhhkllk      oijijoijo   ".strip()
+
+## Booleans
+
+You can see exactly what boolean value an object has by invoking bool on it
+
+	bool('that')
+	True
+
+	bool({})
+	False
+
+	bool(None)
+	False
+
+TIP: whatch out with pieces of code like this, they always execute!!!
+
+	True or lkhjkhjlhljh
+
+## Shell
+
+On ipython you can use shell commands
+
+Use "!" to communicate with the shell
+
+All magic commands available in shell for ipython
+
+Line magic commands with %, cell magic with %%
 
 
