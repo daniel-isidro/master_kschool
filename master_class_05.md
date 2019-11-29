@@ -148,7 +148,7 @@ Also useful especially when constructing a dict
 
 ## Dictionaries
 
-TIP: Use dictionaries as output in functions, as they are self-describing, because those outputs do not depend on position
+**TIP:** Use dictionaries as output in functions, as they are self-describing, because those outputs do not depend on position
 
 	import numpy as np
 	myarray=np.array([0,1,2,3,4,5,6,7,8,9])
