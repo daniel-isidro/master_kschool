@@ -139,3 +139,23 @@ Useful for showing index and values
 
 	for counter, val in enumerate(range(10, 20)):
         	print(counter, val)
+
+Also useful especially when constructing a dict
+
+	mydict={}
+	for i,pet in enumerate(pets):
+		mydict[i]=pet
+
+## Dictionaries
+
+TIP: Use dictionaries as output in functions, as they are self-describing, because those outputs do not depend on position
+
+	import numpy as np
+	myarray=np.array([0,1,2,3,4,5,6,7,8,9])
+	def describe(myarray):
+    		return {"min":myarray.min(),"max":myarray.max(),"mean":myarray.mean()}
+
+	describe(myarray)
+
+Out:
+	{'min': 0, 'max': 9, 'mean': 4.5}
