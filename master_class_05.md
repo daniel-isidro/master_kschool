@@ -100,8 +100,12 @@ Out:
 
 ## List comprehensions
 
+	a=[1,2,3,4, 5, 6]
+
 	result2=[val**2 for val in a if val%2]
 
+Out:
+	[1, 9, 25]
 
 First the values of the resulting list
 
@@ -115,3 +119,23 @@ Takes only the values of the initial list that meet the condition
 
 	if val%2	
 
+Other example **(completeley unreadable)**:
+
+	result3=[val**2 if val%2 else 1 for val in a ] #--> changes the place for if condition
+	result3
+
+Out:
+	[1, 1, 9, 1, 25, 1] 
+
+## zip
+
+“pairs” up the elements of a number of lists, tuples, or other sequences, to create a sequence of tuples
+
+Useful to match two pairs of lists, for example
+
+## enumerate()
+
+Useful for showing index and values
+
+	for counter, val in enumerate(range(10, 20)):
+        	print(counter, val)
