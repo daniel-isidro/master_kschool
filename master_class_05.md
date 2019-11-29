@@ -74,3 +74,44 @@ In python everything is an object, functions as well, so functions can be an arg
 
 Out:
 	[2, 4, 6, 8]
+
+Functions can also be part of lists
+
+	def add_one(value):
+	    return value+1
+	def double_value(value):
+	    return 2*value
+	def add_three(value):
+	    return value+3
+
+	math_ops =[add_one, double_value, add_three]
+
+## map
+
+It iterates over each element of a series
+
+	k=[1,2,3]
+
+	list(map(lambda i:i+1,k))
+	
+Out:
+	[2, 3, 4]
+
+
+## List comprehensions
+
+	result2=[val**2 for val in a if val%2]
+
+
+First the values of the resulting list
+
+	val**2
+
+Then iterates an iterable object
+
+	for val in a
+
+Takes only the values of the initial list that meet the condition
+
+	if val%2	
+
