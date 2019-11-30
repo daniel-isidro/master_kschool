@@ -27,5 +27,5 @@ Gives the average time of several runs of the execution of one given cell.
 	%%timeit
 	[math.sqrt(n) for n in plist]
 
-** WARNING: Always do several runs of something, and never give too many decimals as there always is an error, it doesn't make sens **
+**WARNING: Always do several runs of something, and never give too many decimals as there always is an error, it doesn't make sense**
 
