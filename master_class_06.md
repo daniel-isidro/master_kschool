@@ -35,13 +35,25 @@ TIP: For random numbers use scatter plot, for continous functions plot can be us
 
 TIP: Machine learning is essentially optimizing the derivatives of functions
 
-TIP: Remove labels on plt.plot() charts with **;** at the end of the line
+## plt.plot()
+
+TIP: Remove labels on plt.plot() charts with semicolon at the end of the line
 
 	plt.plot(X,S);
 
-## plt.plot()
-
-For writing in latex, use it in this form: r"$WHATEVER$"
+TIP: For writing in latex, use it in this form: r"$WHATEVER$"
 
 Ex.:
-	label=r"$\sigma(x)$"
+	plt.plot(X,S,label=r"$\sigma(x)$");
+
+## .copy()
+
+Use .copy in arrays to not modify the original array
+
+## .cumsum()
+
+Numerical form of an integral
+
+TIP: derivative equals the slope of a function, integral equals the area under the curve
+
+
