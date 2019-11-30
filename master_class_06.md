@@ -27,5 +27,21 @@ Gives the average time of several runs of the execution of one given cell.
 	%%timeit
 	[math.sqrt(n) for n in plist]
 
-**WARNING: Always do several runs of something, and never give too many decimals as there always is an error, it doesn't make sense**
+**WARNING: Always do several runs of something, and never give too many decimals as there always is an error. It doesn't make sense**
 
+TIP: When doing exercises, **always initialize the variables at the top**
+
+TIP: For random numbers use scatter plot, for continous functions plot can be used
+
+TIP: Machine learning is essentially optimizing the derivatives of functions
+
+TIP: Remove labels on plt.plot() charts with **;** at the end of the line
+
+	plt.plot(X,S);
+
+## plt.plot()
+
+For writing in latex, use it in this form: r"$WHATEVER$"
+
+Ex.:
+	label=r"$\sigma(x)$"
