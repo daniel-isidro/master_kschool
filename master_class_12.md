@@ -15,7 +15,7 @@ Reinforcement learning has a caveat: it needs human labelling
 
 ML requires a table of features, one of the columns needs to be the label=target. It is meaning to find a relation between the features and the target, so it can make high probability predictions
 
-* The real added value of a data scientist is in choosing the right features, finding the best parameter for the model. *
+**The real added value of a data scientist is in choosing the right features, finding the best parameter for the model.**
 
 ML Models: linear regressions, decision trees
 
