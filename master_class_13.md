@@ -32,7 +32,7 @@ To execute commands in the R script:
 
 **Assign values to objects:** precio<-871*1.21
 
-**Objects** can be numbers (double -equiv. to float- or integer), characters, or logic (TRUE/FALSE)
+**Objects** can be numbers (double(=float) or integer), characters, logic (TRUE/FALSE), or factors(=categories)
 
 (Objects can also be assigned values in the way v3="Hola", but it's not preferred)
 
@@ -62,5 +62,35 @@ Rscript xxx.R -parameters
 
 **Matrices in R** 
 
-All matrix elements have to belong to the same type. 
+All elements in a matrix need to belong to the same type. 
 If they are not, R transform them: numeric into character and logical into numeric
+
+**Data.frames** are the most important objects in R, they are used to combine values of different types. Data.frames have been superseded by **tibble** objects
+
+**Factors** are object types used for categories
+
+v.g. gender<-factor("M","F","F","M")
+
+**Transform character vectors into factor vectors**
+
+v.g. gender<-as.factor(c("M","F","F","M"))
+
+Factors are stored in memory as numbers, in alphabetical order
+
+v.g. as.numeric(gender)
+[1] 2 1 1 2
+
+**Data.frames or lists**
+
+When vectors are different in size, we must use lists. Data.frames vectors have to be same size
+
+**Help in R**
+
+? function
+
+v.g. ? rep
+
+
+
+
+
