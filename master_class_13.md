@@ -32,10 +32,35 @@ To execute commands in the R script:
 
 **Assign values to objects:** precio<-871*1.21
 
-**Objects** can be numbers, characters, or logic (TRUE/FALSE)
+**Objects** can be numbers (double -equiv. to float- or integer), characters, or logic (TRUE/FALSE)
 
 (Objects can also be assigned values in the way v3="Hola", but it's not preferred)
 
 **ESC key** for interrupting the output in the console
 
+**Force using integer numbers**
 
+dado<-c(1L,2L,3L)
+
+**Functions**
+
+function(x)
+v.g. length(x)
+Functions are also objects and they can be numeric, character or logic types
+
+**Using R script in the CLI**
+
+Rscript xxx.R -parameters
+
+**Using comments in the R script** using '#'
+
+**Object names** are case sensitive
+
+**Precission of R** is 16 digits
+
+**Vectors in R** always in the form c(x,y,z)
+
+**Matrices in R** 
+
+All matrix elements have to belong to the same type. 
+If they are not, R transform them: numeric into character and logical into numeric
