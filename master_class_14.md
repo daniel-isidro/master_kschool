@@ -17,3 +17,7 @@ Menu Bar > Code > Comment/Uncomment code lines
 **Forcing taking functions from one specifical package**
 
 base::sample (takes sample function from base package)
+
+**Executing an R script from the top in the console**
+
+source("script_name.r")
