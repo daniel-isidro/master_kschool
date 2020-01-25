@@ -24,6 +24,8 @@ source("script_name.r")
 
 **Install packages from CRAN**
 
+Downloads the packed to the computer
+
 install.packages(c( , , , ,))
 
 **Install packages from GitHub**
@@ -33,4 +35,10 @@ install_github(c( , , , ,))
 **Install packages from local repository**
 
 Menu Bar > Tools > Install Packages > Install from Package Archive File (.tar.gz)
+
+**Tidyverse package**
+
+Essential R package for Data Science
+
+Includes other several packages: ggplot2, dplyr, readr, tidyr, tibble
 
