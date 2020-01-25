@@ -42,3 +42,33 @@ Essential R package for Data Science
 
 Includes other several packages: ggplot2, dplyr, readr, tidyr, tibble
 
+**Adding columns to Data.Frames**
+
+df <- mutate(object, column_name)
+
+v.g. dat <- mutate(dat, region =  as.factor(region))
+
+Mutate is a dplyr function; no need to add the name of the Data.Frame to the dplyr functions
+
+**Piping in Data.Frames**
+
+dat %>% mutate(pop2=population/10^5)
+
+**Reading files and getting Data.Frames**
+
+CSV: read.delim, read.csv
+TXT: read.delim
+XLSX: read.xlsx
+
+**Reading files and getting tibbles**
+
+CSV: read_delim, read_csv
+TXT: read_delim
+XLSX: read_xlsx
+
+**Not all packages use tibbles** 
+
+tibbles can be converted to Data.Frames
+
+
+
