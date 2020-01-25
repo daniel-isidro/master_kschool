@@ -65,6 +65,7 @@ XLSX: read.xlsx
 CSV: read_delim, read_csv
 TXT: read_delim
 XLSX: read_xlsx
+HTML: read_html
 
 **Not all packages use tibbles** 
 
