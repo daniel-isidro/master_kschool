@@ -2,7 +2,7 @@
 
 ## Introducción a R
 
-## Fátima Sánchez-Cabo, CNIC
+## Fátima Sánchez Cabo, CNIC
 
 R is an interpreted language, no need to be compiled
 
