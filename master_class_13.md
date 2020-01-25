@@ -84,6 +84,8 @@ v.g. as.numeric(gender)
 
 When vectors are different in size, we must use lists. Data.frames vectors have to be same size
 
+Lists can have different size and type variables. Data.frames cannot
+
 **Help in R**
 
 ? function
