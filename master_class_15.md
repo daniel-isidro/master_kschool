@@ -18,10 +18,15 @@ Most simple functions
 
 v.g. `babies %>% filter( , )`
 
-`summarize(function1, function2, ...)` applies one or several functions to the data.frame or tibble; the output of summarize is one single value per used function
+`summarize(function1, function2, ...)` applies one or several functions to the data.frame or tibble; the output of summarize is one single value per used function; functions can be custom
 
 `add_row( )`
 
 `arrange( )`
 
+`group_by( )`
 `top_n( )`
+
+`head`
+
+`tail`
