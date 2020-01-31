@@ -71,5 +71,12 @@ HTML: read_html
 
 tibbles can be converted to Data.Frames
 
+**Make one R script available to our R session **
+
+source("play.R")
+
+**Execute R scripts in the console**
+
+RScript play.R
 
 
