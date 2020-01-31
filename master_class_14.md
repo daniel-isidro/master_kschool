@@ -2,11 +2,11 @@
 
 ## Importing and collecting data
 
-## Fátima Sánchez Cabo, CNIC
+## Fátima Sánchez-Cabo, CNIC
 
 **Loops and if-else conditions**
 
-if(TRUE/FALSE){}
+`if(TRUE/FALSE){}`
 
 Always write }else{ with no spaces inbetween 
 
@@ -20,17 +20,17 @@ base::sample (takes sample function from base package)
 
 **Executing an R script from the top in the console**
 
-source("script_name.r")
+`source("script_name.r")`
 
 **Install packages from CRAN**
 
 Downloads the packed to the computer
 
-install.packages(c( , , , ,))
+`install.packages(c( , , , ,))`
 
 **Install packages from GitHub**
 
-install_github(c( , , , ,))
+`install_github(c( , , , ,))`
 
 **Install packages from local repository**
 
@@ -44,15 +44,15 @@ Includes other several packages: ggplot2, dplyr, readr, tidyr, tibble
 
 **Adding columns to Data.Frames**
 
-df <- mutate(object, column_name)
+`df <- mutate(object, column_name)`
 
-v.g. dat <- mutate(dat, region =  as.factor(region))
+v.g. `dat <- mutate(dat, region =  as.factor(region))`
 
 Mutate is a dplyr function; no need to add the name of the Data.Frame to the dplyr functions
 
 **Piping in Data.Frames**
 
-dat %>% mutate(pop2=population/10^5)
+`dat %>% mutate(pop2=population/10^5)`
 
 **Reading files and getting Data.Frames**
 
@@ -71,12 +71,6 @@ HTML: read_html
 
 tibbles can be converted to Data.Frames
 
-**Make one R script available to our R session **
-
-source("play.R")
-
 **Execute R scripts in the console**
 
-RScript play.R
-
-
+`RScript play.R`
