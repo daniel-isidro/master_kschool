@@ -1,5 +1,5 @@
 # Master class 15
-## Manejo y empieza de datos
+## Manejo y limpieza de datos
 ### Fátima Sánchez-Cabo
 
 **tidyverse**
@@ -20,3 +20,8 @@ v.g. `babies %>% filter( , )`
 
 `summarize(function1, function2, ...)` applies one or several functions to the data.frame or tibble; the output of summarize is one single value per used function
 
+`add_row( )`
+
+`arrange( )`
+
+`top_n( )`
