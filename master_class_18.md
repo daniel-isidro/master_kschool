@@ -13,10 +13,19 @@
 * Machine learning engineering goes deeper in the algorith3ms
 
 ### Machine learning - Supervised Learning
-* x,y
+x,y
 
 ### Machine learning - Supervised Learning - Regression
-* y continuous
+y continuous
 
 ### Machine learning - Supervised Learning - Classification
-* y discrete
+y discrete
+
+### R vs python
+
+SAS is very efficient in data processing, but not good on ML
+
+* R is better in lm, glm, though it also covers ML (decission trees, random forests, gradient boosting)
+
+* python is better in ML (decission trees, random forests, gradient boosting)
+
