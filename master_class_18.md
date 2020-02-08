@@ -24,9 +24,9 @@ y discrete
 
 SAS is very efficient in data processing, but not good on ML
 
-* R is better in lm, glm, though it also covers ML (decission trees, random forests, gradient boosting)
+* **R is better in linear regression models** (lm, glm), though it also covers ML (decission trees, random forests, gradient boosting)
 
-* python is better in ML (decission trees, random forests, gradient boosting, support-vector machine)
+* **python is better in ML** (decission trees, random forests, gradient boosting, support-vector machine)
 
 ### Data Science phases
 
@@ -40,12 +40,18 @@ SAS is very efficient in data processing, but not good on ML
 
 ### Linear regression
 
-* Regression problems consist on exploring datasets, introducing a new variable, and predicting the outcome
+* **Regression problems** consist on exploring datasets, introducing a new variable, and predicting the outcome
 
-* Exploratory analysis consist in looking at scatterplots or histograms and predicting the correlation between vars
+* **Exploratory analysis** consist in looking at scatterplots or histograms and predicting the correlation between vars
 
 * Errors have mean=0, var=constant, normal distribution, and are not dependant on the input variabless
 
-* In linear regression models, **collinearity** between two input variables is affecting negatively to the results. But collinearity between input vars and the output is desired
+* In linear regression models, **collinearity** between two input variables is affecting negatively to the results. But collinearity between input vars and the output is desired.
+
+```cor(advertising) ```
+
+* Collinearity over 0.7 between input vars and the output var can be considered as good enough. But for ML models low collinearities can also be used
+
+* High R-squared values usually imply collinearity between the input var and the output. Probably that input var depends on the output var. **Overlooking this is a common error for Data Scientists**
 
 
