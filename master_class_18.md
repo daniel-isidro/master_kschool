@@ -12,8 +12,11 @@
 
 * Machine learning engineering goes deeper in the algorith3ms
 
-### Supervised Learning
+### Machine learning - Supervised Learning
 * x,y
 
-### Regression
-* y cont
+### Machine learning - Supervised Learning - Regression
+* y continuous
+
+### Machine learning - Supervised Learning - Classification
+* y discrete
