@@ -10,4 +10,10 @@
 
 * **Applied Data Science** means using the algorithms withouth fully understanding them
 
-* Machine learning engineering goes deeper in the algorithms
+* Machine learning engineering goes deeper in the algorith3ms
+
+### Supervised Learning
+* x,y
+
+### Regression
+* y cont
