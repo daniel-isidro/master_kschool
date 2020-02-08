@@ -1,6 +1,5 @@
 # Supervised learning - Linear regression
-## Mario Encinar, PhD
-## Mapfre
+## Mario Encinar, PhD - Mapfre
 
 * Inference (in Statistics) = Predictive ability (ML)
 
@@ -29,11 +28,6 @@ SAS is very efficient in data processing, but not good on ML
 
 * python is better in ML (decission trees, random forests, gradient boosting, support-vector machine)
 
-### Linear regression
-* Regression problems consist on exploring datasets, introducing a new variable, and predicting the outcome
-
-* Exploratory analysis consist in looking at scatterplots or histograms and predicting the correlation between vars
-
 ### Data Science phases
 
 1. Data extraction + preprocessing (SQL, Hive, Joints...) (maybe done by Data Engineers)
@@ -43,3 +37,11 @@ SAS is very efficient in data processing, but not good on ML
 3. Predictive analysis, prescriptive analysis
 
 4. Production model (maybe done by Data Engineers)
+
+### Linear regression
+
+* Regression problems consist on exploring datasets, introducing a new variable, and predicting the outcome
+
+* Exploratory analysis consist in looking at scatterplots or histograms and predicting the correlation between vars
+
+* Errors have mean=0, var=constant, normal distribution, and are not dependant on the input variabless
