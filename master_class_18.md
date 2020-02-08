@@ -52,6 +52,6 @@ SAS is very efficient in data processing, but not good on ML
 
 * Collinearity over 0.7 between input vars and the output var can be considered as good enough. But for ML models low collinearities can also be used
 
-* High R-squared values usually imply collinearity between the input var and the output. Probably that input var depends on the output var. **Overlooking this is a common error for Data Scientists**
+* R-squared values close to 1 usually imply collinearity between the input var and the output var. Probably that input var depends on the output var. **Overlooking this is a common error for Data Scientists**
 
 
