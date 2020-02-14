@@ -60,11 +60,11 @@ SAS is very efficient in data processing, but not good on ML
 
 ### Statistical packages in python
 
-* The equivalent for python to the R statistics functions is statsmodels
+* The equivalent for python to the R statistics functions is `statsmodels`
 
 * For ML in python, the used packages are `scikit-learn` and `sklearn`
 
 ### Error metrics
 
-* In linear regressions the error metric is MSE. In Classification the error metric is the confusion matrix (true positives and flase negatives)
+* In linear regressions the error metric is MSE. In Classification the error metric is the confusion matrix (true positives and false negatives)
 
