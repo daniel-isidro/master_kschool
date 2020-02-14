@@ -1,5 +1,6 @@
-# Supervised Learning - Multiple Lineal Regression
+# Supervised Learning - Oversampling Techniques
 
 ## Marcio Encinar, PhD, Mapfre
+
 
 
