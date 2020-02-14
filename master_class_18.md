@@ -57,3 +57,14 @@ SAS is very efficient in data processing, but not good on ML
 ### Overfitting
 
 * Making the regression too adjusted to the existing data can lead to overfitting. This should be avoided as this would not predict correctly new data points added to the existing dataset. Validation methods are used to avoid overfitting: dividing the dataset into training part and test part. We find the regression in the training part and later we apply it to the test past. To check the validity, we compare the MSE (mean square errors) in the train part versus the MSE in the test part.
+
+### Statistical packages in python
+
+* The equivalent for python to the R statistics functions is statsmodels
+
+* For ML in python, the used packages are `scikit-learn` and `sklearn`
+
+### Error metrics
+
+* In linear regressions the error metric is MSE. In Classification the error metric is the confusion matrix (true positives and flase negatives)
+
