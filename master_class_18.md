@@ -54,4 +54,6 @@ SAS is very efficient in data processing, but not good on ML
 
 * R-squared values close to 1 usually imply collinearity between the input var and the output var. Probably that input var depends on the output var. **Overlooking this is a common error for Data Scientists**
 
+### Overfitting
 
+* Making the regression too adjusted to the existing data can lead to overfitting. This should be avoided as this would not predict correctly new data points added to the existing dataset. Validation methods are used to avoid overfitting: dividing the dataset into training part and test part. We find the regression in the training part and later we apply it to the test past. To check the validity, we compare the MSE (mean square errors) in the train part versus the MSE in the test part.
