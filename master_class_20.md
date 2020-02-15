@@ -21,5 +21,7 @@
 
 * In a lineal regression, all the x-dependent y values are behaving like a random value fitting in a normal distribution. MLE is used for adjusting models
 
+** In titanic dataset, the mean of survivors is 0.38. The naif model, nobody survived, is only 62% probably correct. That is why **accuracy is never a good metric**
+
 
 
