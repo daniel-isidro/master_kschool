@@ -47,6 +47,7 @@
 
 # Validation
 
-* The R package `caret` is the equivalent to `sklearn` in python. It is olnly maintained by one person, so watch out for bugs or weird outputs. 
+* The R package `caret` is the equivalent to `sklearn` in python. It is olnly maintained by one person, so watch out for bugs or weird outputs
 * `caret` is a wrapper package that integrates other packages (like `glm`)
+* `caret` uses 0.5 by default as threshold. Cannot be modified (it can in `sklearn`)
 * Mario recommends using `sklearn` in python for glm, as the methods of validation are clearer than those of `caret`
