@@ -25,7 +25,7 @@
 
 * Three factors: random component (to what distribution it belongs), systematic component, link function. We only have to choose systm and link, the other is a given
 
-* In the Titanic dataset, the mean of survivors is 0.38. The naif model where nobody survived, it is only 62% probably correct. That is why **accuracy is never a good metric**
+* In the Titanic dataset, the mean of survivors is 0.38. The naif model where nobody survived, it is only 62% accurate. That is why **accuracy is never a good metric**
 
 * For getting a model in R, we must convert the categorical values to factors:
 `titanic$Sex <- as.factor(titanic$Sex)`
@@ -41,3 +41,12 @@
 * Validation technique for classification model 
 * Sensitivity = true positive rate (TPR)
 * Specificity = true negative rate (TNR)
+* ROC curves can be adjusted with different thresholds, depending on the desired proximity to true positives or true negatives
+* The area under the curve is independent from the threshold
+* Mario always uses ROC with Sensitivity vs 1-Specificity
+
+# Validation
+
+* The R package `caret` is the equivalent to `sklearn` in python. It is olnly maintained by one person, so watch out for bugs or weird outputs. 
+* `caret` is a wrapper package that integrates other packages (like `glm`)
+* Mario recommends using `sklearn` in python for glm, as the methods of validation are clearer than those of `caret`
