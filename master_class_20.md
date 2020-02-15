@@ -25,7 +25,19 @@
 
 * Three factors: random component (to what distribution it belongs), systematic component, link function. We only have to choose systm and link, the other is a given
 
-* In the Titanic dataset, the mean of survivors is 0.38. The naif model, nobody survived, is only 62% probably correct. That is why **accuracy is never a good metric**
+* In the Titanic dataset, the mean of survivors is 0.38. The naif model where nobody survived, it is only 62% probably correct. That is why **accuracy is never a good metric**
 
+* For getting a model in R, we must convert the categorical values to factors:
+`titanic$Sex <- as.factor(titanic$Sex)`
 
+* In the Titanic exercise, Pclass1 is not included in the model as it is a combination of Pclass2 and Pclass2. Same with Sexfemale, it is complentary to Sexfemale
 
+* Intercept is \beta_0, the crossfing point with Y-axis
+
+* **Factors do not exist in python**, you have to convert categorical values into binary values
+
+### ROC curve
+
+* Validation technique for classification model 
+* Sensitivity = true positive rate (TPR)
+* Specificity = true negative rate (TNR)
