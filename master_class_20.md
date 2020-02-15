@@ -15,4 +15,11 @@
 
 * Can be applied to regression problems and also to classification problems
 * In GLMs you have to choose a distribution to explain the model
+* Three factors: random component (to what distribution it belongs), systematic component, link function. We only have to choose systm and link, the other is a given
+
+### Maximum Likelihood Estimation
+
+* In a lineal regression, all the x-dependent y values are behaving like a random value fitting in a normal distribution. MLE is used for adjusting models
+
+
 
