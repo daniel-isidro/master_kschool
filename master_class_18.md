@@ -44,7 +44,7 @@ SAS is very efficient in data processing, but not good on ML
 
 * **Exploratory analysis** consist in looking at scatterplots or histograms and predicting the correlation between vars
 
-* Errors have mean=0, var=constant, normal distribution, and are not dependant on the input variabless
+* Errors have mean=0, var=constant, normal distribution, and are not dependant on the input variables
 
 * In linear regression models, **collinearity** between two input variables is affecting negatively to the results. But collinearity between input vars and the output is desired.
 
