@@ -56,7 +56,7 @@ SAS is very efficient in data processing, but not good on ML
 
 ### Overfitting
 
-* Making the regression too adjusted to the existing data can lead to overfitting. This should be avoided as this would not predict correctly new data points added to the existing dataset. Validation methods are used to avoid overfitting: dividing the dataset into training part and test part. We find the regression in the training part and later we apply it to the test past. To check the validity, we compare the MSE (mean square errors) in the train part versus the MSE in the test part.
+* Making the regression too adjusted to the existing data can lead to overfitting. This should be avoided as this would not predict correctly new data points added to the existing dataset. Validation methods are used to avoid overfitting: dividing the dataset into training part and test part. We find the regression in the training part and later we apply it to the test part. To check the validity, we compare the MSE (mean square errors) in the train part versus the MSE in the test part.
 
 ### Statistical packages in python
 
@@ -81,5 +81,3 @@ SAS is very efficient in data processing, but not good on ML
 ### Outliers 
 
 * It's good practice to code outliers as dummy (categorical) values, so you don't lose their information. Plus they don't skew the metrics (like median or mean), when converted to categorical
-
-
