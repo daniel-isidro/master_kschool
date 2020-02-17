@@ -30,13 +30,13 @@ SAS is very efficient in data processing, but not good on ML
 
 ### Data Science phases
 
-1. Data extraction + preprocessing (SQL, Hive, Joints...) (maybe done by Data Engineers)
+1. Data extraction + preprocessing (SQL, Hive, Joints...) (may be done by Data Engineers)
 
 2. Descriptive analysis, exploratory analysis, diagnostic analysis
 
 3. Predictive analysis, prescriptive analysis
 
-4. Production model (maybe done by Data Engineers)
+4. Production model (may be done by Data Engineers)
 
 ### Linear regression
 
