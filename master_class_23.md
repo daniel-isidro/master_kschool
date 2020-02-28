@@ -9,5 +9,9 @@
 
 * We can convert ```date```into ```pd.timestamp``` with ```pd.Timestamp(date(2019, 8, 26))```
 
-* ```date_range``` useful for generate date indices
+* ```date_range``` and ```period_range``` are useful for generate date indices. 4 values: start, end, periods, freq. Can only use 3 setting values at a time
+
+
+
+
 
