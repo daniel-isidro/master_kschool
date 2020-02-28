@@ -11,6 +11,11 @@
 
 * ```date_range``` and ```period_range``` are useful for generate date indices. 4 values: start, end, periods, freq. Can only use 3 setting values at a time
 
+* **CORRELATION DOES NOT IMPLY CAUSALITY**
+
+* **Autocorrelation:** A series that show correlation with itself when shifted a certain number of lags, (e.g. seasonal time series)
+
+
 
 
 
