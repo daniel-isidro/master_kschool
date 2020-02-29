@@ -1,5 +1,6 @@
 # 23 Time Series Analysis
 ## Daniel Burrueco
+### danielburrueco@interactivechaos.com
 
 * We'll work with dataframes/series with the timestamp in the index
 
