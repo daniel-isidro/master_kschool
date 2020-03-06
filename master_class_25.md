@@ -17,6 +17,10 @@
 
 * In the end, nowadays, prediction and classification for recommendation engines are discarded as valid. Now RL (Reinforced Learning) is used.
 
+### Great recommendation engines
+
+* MOVIX.AI
+
 
 
 
