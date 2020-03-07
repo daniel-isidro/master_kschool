@@ -12,4 +12,7 @@
 
 * Explainability means knowing that certain inputs will lead to certain outputs, and what the most influential input variables are. Human Machine Interfaces study explainability.
 
+### Metrics
+
+* ```recall@n``` does not consider the order of the items. ```map@n``` does
 
