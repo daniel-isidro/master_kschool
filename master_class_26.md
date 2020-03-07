@@ -39,3 +39,5 @@
 ### Reducing dimensionality
 
 * When reducing dimensions, we obtain the direction of maximum variability of the data.
+
+* *If the data is not lineal, do not use k-means.*
