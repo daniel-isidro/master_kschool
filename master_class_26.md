@@ -20,3 +20,7 @@
 
 * Usually on the recommended output you'd have to remove the items that are on the training set. For example, so the recommended movies are not movies already seen. Exceptions are retailers, loyalty campaigns, etc., where you would like to see again the most bought products, most loyal customers again.
 
+### Collaborative Filtering
+
+* *Co-ocurrence matrices* are always squared (items vs items, users vs user, etc.). The popularity algorithm is in the trace of the matrix
+
