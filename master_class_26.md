@@ -24,3 +24,7 @@
 
 * *Co-ocurrence matrices* are always squared (items vs items, users vs user, etc.). The popularity algorithm is in the trace of the matrix
 
+### Time Complexity for Job Interviews at big software companies (Google, Twitter, Amazon)
+
+* Always try to use algorithms that require less computing time, for example one for loop instead of two.
+
