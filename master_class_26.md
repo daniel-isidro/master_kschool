@@ -35,3 +35,7 @@
 ### The curse of dimensionality
 
 * ML has a problem: datasets are long, millions of rows. While doing mathematical operations with matrices, the computing power needed is very high. The more dimensions used, the volume of the space increases so fast that the available data become sparse. Deep learning is used to mitigate this problem.
+
+### Reducing dimensionality
+
+* When reducing dimensions, we obtain the direction of maximum variability of the data.
