@@ -16,3 +16,5 @@
 
 * ```recall@n``` does not consider the order of the items. ```map@n``` does
 
+* recall@n should never reach 1. Very good values (interesction between true positives and items rated in the test set) are around 0.3 (30%).
+
