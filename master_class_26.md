@@ -18,3 +18,5 @@
 
 * recall@n should never reach 1. Very good values (interesction between true positives and items rated in the test set) are around 0.3 (30%).
 
+* Usually on the recommended output you'd have to remove the items that are on the training set. For example, so the recommended movies are not movies already seen. Exceptions are retailers, loyalty campaigns, etc., where you would like to see again the most bought products, most loyal customers again.
+
