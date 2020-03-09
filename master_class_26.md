@@ -1,4 +1,4 @@
-# Intro to Recommendation Engines
+# Intro to Recommender Systems
 
 ## Juan Arévalo, Cepsa
 
