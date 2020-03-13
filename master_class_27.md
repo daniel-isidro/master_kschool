@@ -33,3 +33,4 @@
 
 * The RMSE with cross validation is not necessary lower that without CV. But the model is more robust with CV
 
+* Decsission trees are used to minimize the spread of the data
