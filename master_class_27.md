@@ -1,6 +1,5 @@
-# Supervised Learning
-## Support Vector Machines - Gradient Boosting Machines
-### Toni Almagro, Data Scientist, Amadeus
+# Supervised Learning - Regression
+## Toni Almagro, Data Scientist, Amadeus
 
 * Unsupervised Learning - Clustering example: k-means
 
@@ -29,6 +28,10 @@
 * In k nearest neighbors, for multiple variables inputs, always normalize the input features to avoid different scales between them
 
 * Having a **low MAE but a high RMSE** means we have several points that the model cannot predict well (outliers or not outliers). It makes sense using both metrics together
+
+* We'll use cross validation so the train/test split has a minimum impact on the model
+
+* The RMSE with cross validation is not necessary lower that without CV. But the model is more robust with CV
 
 
 
