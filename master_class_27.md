@@ -33,11 +33,3 @@
 
 * The RMSE with cross validation is not necessary lower that without CV. But the model is more robust with CV
 
-
-
-
-
-
-
-
-
