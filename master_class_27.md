@@ -16,7 +16,7 @@
 
 * **All ML problems are about minimization, maximization, or optimization**
 
-* **There are no best models, there are better models than other depending on the metrics**
+* **There are no best models, there are better models than others depending on the metrics**
 
 * Labelled Training Data: Input vectors are usually matrices (several features)
 
@@ -26,8 +26,9 @@
 
 * Metrics are different between regression and classification
 
-* In k nearest neighbors, for multiple variables inputs, always normalize the vars to avoid different scales between them
+* In k nearest neighbors, for multiple variables inputs, always normalize the input features to avoid different scales between them
 
+* Having a **low MAE but a high RMSE** means we have several points that the model cannot predict well (outliers or not outliers). It makes sense using both metrics together
 
 
 
