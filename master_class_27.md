@@ -47,6 +47,6 @@
 
 ## Supervised Learning - Classification
 
-* Support Vector Machines are not generally used. It is used as a last resort method
+* Support Vector Machines are not generally used. It is used as a last resort method. It's trainig takes hours vs minutes in decission trees
 
 * SVM is meant for finding a line that separates two classes. Margin is the error
