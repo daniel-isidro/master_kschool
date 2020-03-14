@@ -53,7 +53,7 @@
 
 ## Gradient Boosting Trees
 
-* It is a type of ensemble learning
+* It is a type of ensemble learning - stacking
 
 * Can be used for regression and for classification
 
