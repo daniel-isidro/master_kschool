@@ -50,3 +50,11 @@
 * Support Vector Machines are not generally used. It is used as a last resort method. It's trainig takes hours vs minutes in decission trees
 
 * SVM is meant for finding a line that separates two classes. Margin is the error
+
+## Gradient Boosting Trees
+
+* It is a type of ensemble learning
+
+* Can be used for regression and for classification
+
+* Always use learning_rate=0.1
