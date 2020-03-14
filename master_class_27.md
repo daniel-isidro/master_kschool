@@ -34,3 +34,5 @@
 * The RMSE with cross validation is not necessary lower that without CV. But the model is more robust with CV
 
 * Decsission trees are used to minimize the spread of the data
+
+* For rating models we can use custom metrics (custom scorer). Custom mestric need input vector, prediction vector, and as a result they return a number
