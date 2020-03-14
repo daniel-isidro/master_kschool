@@ -1,5 +1,7 @@
-# Supervised Learning - Regression
-## Toni Almagro, Data Scientist, Amadeus
+# Supervised Learning
+### Toni Almagro, Data Scientist, Amadeus
+
+## Supervised Learning - Regression
 
 * Unsupervised Learning - Clustering example: k-means
 
@@ -37,6 +39,14 @@
 
 * For rating models we can use custom metrics (custom scorer). Custom mestric need input vector, prediction vector, and as a result they return a number
 
+* To avoid overfiiting, you can use the train/test/validation splits. Otherwise validation set is not used
+
 * **High bias** means the model is too simple for the data (underfitting), the model does not express the complexity of the data (for example, data that more or less behave like a parable expressed as a line). This may be solved increasing the complexity of the model
 
 * **High variance** may mean the model has overfitting, that the model adjusts too well to the existing data, also to the noise of the existing data, so it will not be able to adusjt with precision to new data. This may be solved reducing the complexity of the model
+
+## Supervised Learning - Classification
+
+* Support Vector Machines are not generally used. It is used as a last resort method
+
+* SVM is meant for finding a line that separates two classes. Margin is the error
