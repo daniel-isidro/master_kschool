@@ -36,3 +36,7 @@
 * Decsission trees are used to minimize the spread of the data
 
 * For rating models we can use custom metrics (custom scorer). Custom mestric need input vector, prediction vector, and as a result they return a number
+
+* **High bias** means the model is too simple for the data (underfitting), the model does not express the complexity of the data (for example, data that more or less behave like a parable expressed as a line). This may be solved increasing the complexity of the model
+
+* **High variance** may mean the model has overfitting, that the model adjusts too well to the existing data, also to the noise of the existing data, so it will not be able to adusjt with precision to new data. This may be solved reducing the complexity of the model
