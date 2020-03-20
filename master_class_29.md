@@ -10,3 +10,5 @@
 * Stop words were usually removed from texts in NLP (preposiciones, conjunciones, determinantes). Not anymore in modern techniques.
 
 * With ```scikit.learn``` we can give weight to the words so stop words don't have more importance for being more frequent in texts.
+
+* NLP when translating works very well with well written texts, not so well with coloquial texts or slang.
