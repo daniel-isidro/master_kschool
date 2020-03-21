@@ -19,3 +19,6 @@
 
 * **```spacy``` models** es_core_news_md: Spanish-based on news-medium size (there are larger and smaller models)
 
+* Word vectors have revolutionized NLP in the last years. Semantic similarity between words has benefited from this
+
+* GloVe (Global Vectors for Word Representation) is an unsupervised (in reality self-supervised) algorithm for obtaining vector representation for words. Similarity in GloVe varies from -1 (dissimilar) to 1 (similar)
