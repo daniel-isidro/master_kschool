@@ -42,3 +42,5 @@ Real-time messaging with mid-speed latency. Usually used on JSON format. 40USD/m
 Saves the messages for 7 days. Have to be saved in another storage for keeing them longer 
 
 Push or pull
+
+Only useful for specific needs of reat-time appliccations, otherwise it's too expensive
