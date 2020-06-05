@@ -44,3 +44,15 @@ Saves the messages for 7 days. Have to be saved in another storage for keeing th
 Push or pull
 
 Only useful for specific needs of reat-time appliccations, otherwise it's too expensive
+
+### Dataflow
+
+Programming languages Java - Python - Scala
+
+E(xtraction)T(trasfer)L(oading) - Analysis - Orchestration
+
+Dataflow is recommended for Stream processing
+
+### Dataproc
+
+Advantages over Hadoop/Spark: not idle clusters, scaling flexibility
