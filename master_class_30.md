@@ -24,3 +24,5 @@ Useful Google Cloud components for Data Scientists:
   * Big Query (Data Warehouse: Distributed Storage + Search Engine)
   
 * AI and Machine Learning
+
+Use Google Chrome when possible
