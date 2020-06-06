@@ -105,3 +105,34 @@ Useful for quickly pre-processing data before the queries
 
 * Benefits: free, integrated with BigQuery and CloudML. Useful for VMs with pre-installed libraries
 * Cons: sometimes there is not powerful enoguh, not to be used in production environments
+
+Use Jupyter notebooks with BigQuery for big data, do not use big dataframes for that, as python is slower
+
+### Cloud Composer
+
+Useful for night batches uploading to BigQuery
+
+Automatization and orchestation
+
+Minimum 300 USD/month
+
+### Data Fusion
+
+Integrates data, without coding
+
+Build data analytics applications for on-premise cloud
+
+Visual, not like Hadoop/Spark
+
+One time uoloading or recurring
+
+Can be used alone or with Composer
+
+Very expensive (around 1,000 USD/month, DataPrep is much cheaper but more limited)
+
+### Data Catalog
+
+Effective solution for data discovery of all data assets, spread across multiple projects and systems
+
+Data Governance recommendation: all users can view metadata, but can only access permitted datasets
+This way all users can know available tables and not generate them again
