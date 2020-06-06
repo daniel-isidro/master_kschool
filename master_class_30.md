@@ -136,3 +136,38 @@ Effective solution for data discovery of all data assets, spread across multiple
 
 Data Governance recommendation: all users can view metadata, but can only access permitted datasets
 This way all users can know available tables and not generate them again
+
+## Machine Learning from Google
+
+### Cognitive Computing ML APIs
+
+* Cloud Vision API
+* Cloud Speech API
+* Cloud Natural Language API
+* Cloud Video Intelligence API
+* Cloud Translation API
+
+### Tensorflow
+
+https://playground.tensorflow.org/
+
+A standard linear regression model in Tensorflow can be as small as 23 lines in python
+
+More complex models can have 100s or 1000s of lines, never more
+
+Can be integrated in Jupyter notebooks
+
+Once we have the model we can convert it into an API and use it in production for predictions
+
+### AI Platform
+
+Successful projects:
+
+	* Big Data, well prepared and with quality
+
+	* Invest time in understanding ML
+
+	* Talent. Data Scientist with ML experience
+
+With small data we cannot do a good ML project, but we can use statistics
+
