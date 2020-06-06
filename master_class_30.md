@@ -56,3 +56,52 @@ Dataflow is recommended for Stream processing
 ### Dataproc
 
 Advantages over Hadoop/Spark: not idle clusters, scaling flexibility
+
+### BigQuery
+
+Parallel prcessing, memory processing (like Spark), shared memory (thousand of shared nodes, like a datalake)
+
+Worker: processing unit - half-processor and 1 GB RAM, will perform the tasks 
+
+Costs: on demand or flat rate, per volume of processed data
+
+Recommended - alwas 3 layers minimum in data lakes:
+
+* Raw data
+* Processed data (1 or more layers, depending of processes complexity)
+* Reporting data
+
+Infinite storage capacity
+
+Google maintains the cluster and only charges per consult, 5 USD per 1 TB processed
+
+Pricing:
+* Storage 
+	* 0,20 USD/1 TB/month. From 90 days, 0.20 USD /1 TB/month. First 10 TB free
+	* Ingest rate of streming data
+
+* Processing
+	* 5 USD/1 TB (first 1 TB free)
+	* Flat-rate plans recommended from 5,000 - 10,000 USD
+
+There are BigQuery public datasets available (v.g. AccuWeather)
+
+2,000 slots = 100-1000 daily users making queries, 50 concurrent queries
+
+Recommended partitioning tables over per day/month/year
+
+For relational tables, it is recommended to do the queries in joined tables (after nightly join batches)
+
+BigQuery is oftend use with Google CLI (command line)
+https://cloud.google.com/bigquery/docs/bq-command-line-tool
+
+Or used in automatic processes with Composer
+
+### Dataprep
+
+Useful for quickly pre-processing data before the queries
+
+### Colab
+
+* Benefits: free, integrated with BigQuery and CloudML. Useful for VMs with pre-installed libraries
+* Cons: sometimes there is not powerful enoguh, not to be used in production environments
