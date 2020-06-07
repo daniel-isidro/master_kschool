@@ -161,9 +161,9 @@ Once we have the model we can convert it into an API and use it in production fo
 
 ### AI Platform
 
-Successful projects:
+Successful ML projects:
 
-* Big Data, well prepared and with quality
+* Vast amounts of data, well prepared and with quality
 
 * Invest time in understanding ML
 
