@@ -163,11 +163,11 @@ Once we have the model we can convert it into an API and use it in production fo
 
 Successful projects:
 
-	* Big Data, well prepared and with quality
+* Big Data, well prepared and with quality
 
-	* Invest time in understanding ML
+* Invest time in understanding ML
 
-	* Talent. Data Scientist with ML experience
+* Talent. Data Scientist with ML experience
 
 With small data we cannot do a good ML project, but we can use statistics
 
