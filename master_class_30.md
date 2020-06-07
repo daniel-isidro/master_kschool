@@ -21,7 +21,7 @@ Useful Google Cloud components for Data Scientists:
   * Code repositories
   
 * Data Analytics - Big Data
-  * Big Query (Data Warehouse: Distributed Storage + Search Engine) (e.g. evaluates 7 TB data queries in 7 seconds)
+  * BigQuery (Data Warehouse: Distributed Storage + Search Engine) (e.g. evaluates 7 TB data queries in 7 seconds)
   
 * AI and Machine Learning
 
