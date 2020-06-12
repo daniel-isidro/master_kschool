@@ -1,36 +1,36 @@
 # Deep Learning
 ## Juan Arévalo, Cepsa
 
-* Deep learning
+### Deep learning
 
-  W = weight matrix, on every layer it evolves and improves
+W = weight matrix, on every layer it evolves and improves
 
-  Lineal transformations are equivalent to vector rotations. To make non-linear transformations, we use activation functions
+Lineal transformations are equivalent to vector rotations. To make non-linear transformations, we use activation functions
   
-  Most used activation function is * rectifier linear unit * or relu
+Most used activation function is * rectifier linear unit * or relu
   
-  Relu returns 0 if input is negative, and returns x if input is positive
+Relu returns 0 if input is negative, and returns x if input is positive
   
-  We decide how many layers have the model, but the weight matrices are selected automatically
+We decide how many layers have the model, but the weight matrices are selected automatically
   
-  Every layer decides what parts of its input are relevant or not, to resolve the problem
+Every layer decides what parts of its input are relevant or not, to resolve the problem
   
-  Reinforced learning: At the end of the process we tell the model whether the output was correct or not
+Reinforced learning: At the end of the process we tell the model whether the output was correct or not
   
-  Neurons are the components of the output y. b and y have the same size
+Neurons are the components of the output y. b and y have the same size
   
-  Every layer changes the size of the input. A neural network is a series of layers. y is the dense layer
+Every layer changes the size of the input. A neural network is a series of layers. y is the dense layer
   
-* Training process: backpropragation algorythm, specifically gradient descent algorythms
+Training process: backpropragation algorythm, specifically gradient descent algorythms
 
-* Keras would be the equivalent to pandas, tensorflow to numpy
+Keras would be the equivalent to pandas, tensorflow to numpy
 
-* **Always use linear activation for linear  problems**
+**Always use linear activation for linear  problems**
 
-* **To avoid overfitting, normalize the train data set**
+**To avoid overfitting, normalize the train data set**
 
-* We cannot use activation relu as it removes the negative values. We have to use elu
+We cannot use activation relu as it removes the negative values. We have to use elu
   
   activations.elu -> exponential linear units
   
- * Deep learning automatizes the feature engineering (in ML it's manual)
+Deep learning automatizes the feature engineering (in ML it's manual)
