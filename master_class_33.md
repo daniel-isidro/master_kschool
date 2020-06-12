@@ -20,6 +20,8 @@ Reinforced learning: At the end of the process we tell the model whether the out
 Neurons are the components of the output y. b and y have the same size
   
 Every layer changes the size of the input. A neural network is a series of layers. y is the dense layer
+
+Every layer usually has less neurons than the previous one
   
 Training process: backpropragation algorythm, specifically gradient descent algorythms
 
