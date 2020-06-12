@@ -20,3 +20,5 @@
   Neurons are the components of the output y. b and y have the same size
   
   Every layer changes the size of the input. A neural network is a series of layers
+  
+* Training process: backpropragation algorythm, specifically gradient descent algorythms
