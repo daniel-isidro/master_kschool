@@ -19,6 +19,10 @@
   
   Neurons are the components of the output y. b and y have the same size
   
-  Every layer changes the size of the input. A neural network is a series of layers
+  Every layer changes the size of the input. A neural network is a series of layers. y is the dense layer
   
 * Training process: backpropragation algorythm, specifically gradient descent algorythms
+
+* Keras would be the equivalent to pandas, tensorflow to numpy
+
+* **Always use linear activation for linear  problems**
