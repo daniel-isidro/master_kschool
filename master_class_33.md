@@ -31,8 +31,10 @@ Keras would be the equivalent to pandas, tensorflow to numpy
 
 We cannot use activation relu as it removes the negative values. We have to use elu
   
+```
 activations.elu -> exponential linear units
-  
+```
+
 Deep learning automatizes the feature engineering (in ML it's manual)
 
 When models don't work, it's better to reduce the number of neurons and to increase the number of layers
