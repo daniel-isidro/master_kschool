@@ -51,6 +51,12 @@ Better to use Dropout near the last layers
 
 Dropout rate = 0.3 -> turns off 30 % of neurons
 
-### Beyond Deep Learning
+### DL Takeaways
 
-Decision making is beyond DL (so Reinforcement Learning, Interventions, Reasoning, Causality are out of DL)
+* What matter is to learn **representations**, not DL itself
+
+* DL is well suited for **high dimensionality** problems
+
+* **Outside DL world:**
+  * Interventions, actions, etc.
+  * Imagination, reasoning, causality, etc.
