@@ -32,6 +32,8 @@ Keras would be the equivalent to pandas, tensorflow to numpy
 **To avoid overfitting, normalize the train data set**
 
 We cannot use activation relu as it removes the negative values. We have to use elu
+
+An even better activation is selu
   
 ```
 activations.elu -> exponential linear units
