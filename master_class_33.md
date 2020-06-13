@@ -93,4 +93,4 @@ Filters measure the overlapping between the input and the pattern
 
 Most used fiters are 5x5 pixels
 
-In CNNs the layers are filters
+In CNNs the layers are groups of filters
