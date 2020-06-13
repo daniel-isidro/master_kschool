@@ -51,7 +51,7 @@ When models don't work, it's better to reduce the number of neurons and to incre
 
 On every iteration random neurons are turned off, so smaller models get trained, and later they are put together. This helps reducing the overfitting
 
-Better to use Dropout near the last layers
+Better to use Dropout near the last layers. Also use it after the first layer with highest number of parameters
 
 Dropout rate = 0.3 -> turns off 30 % of neurons
 
