@@ -64,3 +64,15 @@ Dropout rate = 0.3 -> turns off 30 % of neurons
 * **Outside DL world:**
   * Interventions, actions, etc.
   * Imagination, reasoning, causality, etc.
+  
+### Optimization
+
+* **Stochastic Gradient Descent**
+
+The word 'stochastic' means a system or a process that is linked with a random probability. Hence, in Stochastic Gradient Descent, a few samples are selected randomly instead of the whole data set for each iteration
+
+* **Batch size**
+
+If it's too small, learning is very slow. If it's too big, we are near the dataset size, and it stops being stochastic. **Never use batch size over 1000.**
+
+
