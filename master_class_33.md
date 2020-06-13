@@ -83,7 +83,7 @@ Default is 0.001, put it higher (e.g. 0.005) to increase the learning speed
 
 * **Batch size**
 
-If batch size is too small, learning is very slow. If it's too big, we are near the dataset size, and it stops being stochastic. **Never use batch size over 1000.**
+If batch size is too small, learning is very slow. If it's too big, we are near the dataset size, and it stops being stochastic. **Never use a batch size over 1000**
 
 ### Convolutional Neural Networks
 
