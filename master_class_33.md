@@ -55,6 +55,8 @@ Better to use Dropout near the last layers. Also use it after the first layer wi
 
 Dropout rate = 0.3 -> turns off 30 % of neurons
 
+When the error of the validation set is less than the one of the training set, it means that we have used regularization too much
+
 ### DL Takeaways
 
 * What matter is to learn **representations**, not DL itself
@@ -77,10 +79,18 @@ In keras, never use pure SGD, all the rest of the optimizers are quicker (RMSPro
 
 * **Learning rate**
 
-Default is 0.001, put if higher (e.g. 0.005) to increase the learning speed
+Default is 0.001, put it higher (e.g. 0.005) to increase the learning speed
 
 * **Batch size**
 
 If it's too small, learning is very slow. If it's too big, we are near the dataset size, and it stops being stochastic. **Never use batch size over 1000.**
 
+### Convolutional Neural Networks
 
+Filters are used to look for a pattern in the input
+
+Filters measure the overlapping between the input and the pattern
+
+Most used fiters are 5x5 pixels
+
+In CNNs the layers are filters
