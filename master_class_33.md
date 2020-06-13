@@ -39,6 +39,8 @@ An even better activation is selu
 activations.elu -> exponential linear units
 ```
 
+In the last layer of Neural Networks, usually softmax activation is used to force a normalized output (so the sum of all outputs is 1)
+
 Deep learning automatizes the feature engineering (in ML it's manual)
 
 When models don't work, it's better to reduce the number of neurons and to increase the number of layers
