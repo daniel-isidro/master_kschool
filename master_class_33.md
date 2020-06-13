@@ -67,9 +67,17 @@ Dropout rate = 0.3 -> turns off 30 % of neurons
   
 ### Optimization
 
+Optimizing the cost function is usually very difficult.
+
 * **Stochastic Gradient Descent**
 
 The word 'stochastic' means a system or a process that is linked with a random probability. Hence, in Stochastic Gradient Descent, a few samples are selected randomly instead of the whole data set for each iteration
+
+In keras, never use pure SGD, all the rest of the optimizers are quicker (RMSProp, Adam, etc.)
+
+* **Learning rate**
+
+Default is 0.001, put if higher (e.g. 0.005) to increase the learning speed
 
 * **Batch size**
 
