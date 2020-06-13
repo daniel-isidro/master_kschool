@@ -50,3 +50,7 @@ On every iteration random neurons are turned off, so smaller models get trained,
 Better to use Dropout near the last layers
 
 Dropout rate = 0.3 -> turns off 30 % of neurons
+
+### Beyond Deep Learning
+
+Decision making is beyond DL (so Reinforcement Learning, Interventions, Reasoning, Causality are out of DL)
