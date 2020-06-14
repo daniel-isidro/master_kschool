@@ -119,7 +119,7 @@ Takes only the values of the initial list that meet the condition
 
 	if val%2	
 
-Other example **(completeley unreadable)**:
+Other example **(completely unreadable)**:
 
 	result3=[val**2 if val%2 else 1 for val in a ] #--> changes the place for if condition
 	result3
