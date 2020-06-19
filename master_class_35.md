@@ -5,6 +5,6 @@
 
 ### Standard SQL Basic Concepts
 **Tip:** Search for "bigquery public datasets" in Google search
-* In BigQuary Editor, click on 'More - Format' for prettifying the code
+* In BigQuery Editor, click on 'More - Format' for prettifying the code
 
 * '--' for commenting code lines or '/* abcdef */' for commenting code chunks
