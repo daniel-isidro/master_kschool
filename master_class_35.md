@@ -84,5 +84,18 @@ It is similar to the confusion matrix except the fact that we are calculating th
 
 ### Practical Case - Iberia and BigQuery
 
-Model options - Auto Class Weight -> useful to create oversampling
+Model options - Auto Class Weight -> useful to create oversampling, 1:1 ratio
 
+**Score threshold**
+
+Positive class threshold 	0.5010
+
+Precision	0.0182 (18%, the model has improved from 5% (in the original dataset there are 5000 positive cases out of 1 Million))
+
+Recall	0.7192
+
+Accuracy 	0.8120
+
+F1 score 	0.0354
+
+AUC 0.8433
