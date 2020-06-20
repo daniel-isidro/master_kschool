@@ -71,4 +71,10 @@ Observation 2: beahavior days -67 and -37, analyze purchases between days -37 an
 **High recall added to high precision** means the model is financially viable. Recall useful for fraud detection without bias
 
 Sensitivity = Recall
+
 False positive rate = 1 - Especificity
+
+### Cost matrix
+
+It is similar to the confusion matrix except the fact that we are calculating the cost of wrong prediction or right prediction. Useful for assesing risk of marketing campaigns, e.g.
+
