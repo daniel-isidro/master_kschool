@@ -61,3 +61,11 @@ On e-commerce websites, HITs with positive outcome are very reduced. Oversamplin
 Observation 1: behavior days -60 and -30, analyzed purchases between days -30 and -15
 
 Observation 2: beahavior days -67 and -37, analyze purchases between days -37 and -22
+
+#### Evaluating the model
+
+High accuracy does not mean the model is good, as data can be imbalaced
+
+High precision does not mean that the model is financially viable
+
+High recall added to high precision means the model is financially viable
