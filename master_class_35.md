@@ -99,3 +99,5 @@ Accuracy 	0.8120
 F1 score 	0.0354
 
 AUC 0.8433
+
+**Negative Category_weights** show collinearity
