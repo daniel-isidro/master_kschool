@@ -74,7 +74,13 @@ Sensitivity = Recall
 
 False positive rate = 1 - Especificity
 
-### Cost matrix
+#### Cost matrix
 
 It is similar to the confusion matrix except the fact that we are calculating the cost of wrong prediction or right prediction. Useful for assesing risk of marketing campaigns, e.g.
+
+### CRMint App Engine
+
+90 USD/month. scheduling data flow process between GA 360 and Google ad products for solving business tasks: GA remarketing, LTV, etc.
+
+### Practical Case - Iberia and BigQuery
 
