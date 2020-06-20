@@ -84,3 +84,5 @@ It is similar to the confusion matrix except the fact that we are calculating th
 
 ### Practical Case - Iberia and BigQuery
 
+Model options - Auto Class Weight -> useful to create oversampling
+
