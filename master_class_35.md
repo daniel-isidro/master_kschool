@@ -64,8 +64,11 @@ Observation 2: beahavior days -67 and -37, analyze purchases between days -37 an
 
 #### Evaluating the model
 
-High accuracy does not mean the model is good, as data can be imbalaced
+**High accuracy** does not mean the model is good, as data can be imbalaced
 
-High precision does not mean that the model is financially viable
+**High precision** does not mean that the model is financially viable. Precision ideally would be useful for fraud detection, but can have bias as labeling is human based. Precision for delinquency detection
 
-High recall added to high precision means the model is financially viable
+**High recall added to high precision** means the model is financially viable. Recall useful for fraud detection without bias
+
+Sensitivity = Recall
+False positive rate = 1 - Especificity
