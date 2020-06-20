@@ -35,15 +35,22 @@ Every HIT (row) has nested fields
 
 Every SESSION has several HITs
 
-Since data is sparse (a lot of zeros, just a few few flights of the thousands shown are bought), we have to generalize the data
+Since data is sparse (a lot of zeros, just a few few flights of the thousands shown are bought), we have to generalize/simplify the data
 
 We can focus on several fields to simplify the data:
 
-* high used routes
-* most used destination
+* popular routes
+* popular destinations
 * classficate by short/medium/long routes 
 * trip length (business/leisure)
-* passengers number
+* number of passengers
 * frequent flier
 * has purchased in the past or not
 * latest purchase process step achieved
+* number of visits last 30 days - visits days 30-21 - visits days 20-11 - visits days 0-10
+* weekday of flight
+* time of flight
+
+This model will be based on COOKIES, not on users (a user in a different device generates a new cookie)
+
+Variables can be TRANSACTIONAL (related to the process features) or USER RELATED (describe the user's habits)
