@@ -39,6 +39,7 @@ Since data is sparse (a lot of zeros, just a few few flights of the thousands sh
 
 We can focus on several fields to simplify the data:
 
+* price of flight - or better ratio price vs. average historic price of that route
 * popular routes
 * popular destinations
 * classficate by short/medium/long routes 
@@ -53,4 +54,10 @@ We can focus on several fields to simplify the data:
 
 This model will be based on COOKIES, not on users (a user in a different device generates a new cookie)
 
-Variables can be TRANSACTIONAL (related to the process features) or USER RELATED (describe the user's habits)
+Variables can be TRANSACTIONAL (related to features of the process) or USER RELATED (describe the user's habits)
+
+On e-commerce websites, HITs with positive outcome are very reduced. Oversampling or undersampling could be used, but should be avoided as are artificial methods. **So changing the time intervals of the observed data and adding those observations as new users can be very useful.**
+
+Observation 1: behavior days -60 and -30, analyzed purchases between days -30 and -15
+
+Observation 2: beahavior days -67 and -37, analyze purchases between days -37 and -22
