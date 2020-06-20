@@ -90,7 +90,7 @@ Model options - Auto Class Weight -> useful to create oversampling, 1:1 ratio
 
 Positive class threshold 	0.5010
 
-Precision	0.0182 (18%, the model has improved from 5% (in the original dataset there are 5000 positive cases out of 1 Million))
+Precision	0.0182 (18%, the model has improved 4x from 5% Conversion Rate in the original dataset, where there are 5000 positive cases out of 1 Million))
 
 Recall	0.7192
 
@@ -101,3 +101,5 @@ F1 score 	0.0354
 AUC 0.8433
 
 **Negative Category_weights** show collinearity
+
+**Concatenating similar variables** like Android-WindowsPC-iPhone improves AUC and Recall in 1%
