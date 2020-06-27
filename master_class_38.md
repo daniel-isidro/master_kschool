@@ -65,3 +65,10 @@ Output:
 ```
 []
 ```
+
+### Spark
+
+Spark is programmed in Scala. pyspark adds a python layer to the native language. Most of the features of Spark that exist in Scala can be used in python, but not all. Also error messages are based in Scala, so it makes it a mess
+
+To check if Spark is correctly installed, execute ```spark```
+
