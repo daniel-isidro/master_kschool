@@ -74,3 +74,6 @@ Spark is programmed in Scala. pyspark adds a python layer to the native language
 
 To check if Spark is correctly installed, execute ```spark```
 
+**Actions and Transformations**
+
+Transformations produce an RDD. Actions are implemented as methods on an RDD, and return an object of a type that is not an RDD. 
