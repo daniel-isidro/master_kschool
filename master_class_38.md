@@ -1,5 +1,7 @@
 # Functional Programming - Spark
-## Dani Mateos, Data Scientist, Freelance
+## Dani Mateos
+### Data Scientist, Freelance
+
 ### Apache Hadoop (MapReduce)
 
 * Revolutionary: using commodity hardware for big data tasks
