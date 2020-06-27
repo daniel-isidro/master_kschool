@@ -6,7 +6,7 @@
 
 * Hadoop: Systems have to endure hard disk failures constantly. Hadoop allows data to be dispersed on many nodes
 
-* **Functional programming** has 4 key elements: map, reduce, filter, lambdas
+* **Functional programming** has 4 key elements: ```map```, ```reduce```, ```filter```, ```lambda```
 
 **Mapping**
 
@@ -23,10 +23,18 @@ list(map(square, input_list))
 
 **Filtering**
 
-```filter``` is the subsitute of other type of for loops, the transformation is done or not depending of a condition
+```filter``` is the subsitute of other type of ```for``` loops, the transformation is done or not depending of a condition
 
 **Reducing**
 
 ```reduce``` is also applied to a list of elements.  It does not produce a collection but just one element. It makes transformations to the first pair of elements, and puts the transformation into the next element until the end of the list
 
-2 factors to prioritize in big data: parallelize as much as possible and reduce computing power
+### 2 factors to prioritize in big data
+
+1) Parallelize as much as possible, distributing the data
+
+2) Reducing computing power
+
+Functions must be commutative and associative to be used in distributed computing
+
+```for``` loops are to be avoided in big data
