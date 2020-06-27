@@ -77,3 +77,7 @@ To check if Spark is correctly installed, execute ```spark```
 **Actions and Transformations**
 
 Transformations produce an RDD. Actions are implemented as methods on an RDD, and return an object of a type that is not an RDD. 
+
+**Persistence**
+
+Spark allows chaching to speed up processes and recover lost data
