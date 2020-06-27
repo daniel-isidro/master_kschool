@@ -47,7 +47,8 @@ this_map = map(lambda x: (x**2, x, 1), numbers)
 list(this_map)
 ```
 
-Output:```
+Output:
+```
 [(144, 12, 1),
  (289, 17, 1),
  (361, 19, 1),
@@ -56,12 +57,11 @@ Output:```
  (576, 24, 1)]
 ```
 
-```list(this_map)
+```
+list(this_map)
 ```
 
 Output:
 ```
 []
 ```
-
-
