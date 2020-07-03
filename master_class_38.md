@@ -25,7 +25,7 @@ list(map(square, input_list))
 
 **Filtering**
 
-```filter``` is the subsitute of other type of ```for``` loops, the transformation is done or not depending of a condition
+```filter``` is the subsitute of other type of ```for``` loops, the transformation is done or not depending of a condition. ```fiter```returns a boolean
 
 **Reducing**
 
@@ -81,3 +81,7 @@ Transformations produce an RDD. Actions are implemented as methods on an RDD, an
 **Persistence**
 
 Spark allows chaching to speed up processes and recover lost data
+
+**rdd**
+
+```groupByKey()``` can only be applied to sets of tuples
