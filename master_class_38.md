@@ -85,3 +85,11 @@ Spark allows chaching to speed up processes and recover lost data
 **rdd**
 
 ```groupByKey()``` can only be applied to sets of tuples
+
+**DataFrames in spark**
+
+A DataFrame of 1 column is not the same as the column of the DataFrame
+
+```df.select['id']``` does not equal ```df['id']```
+
+DataFrames in spark are immutable. We need to create new DataFrames with the appropriate columns
