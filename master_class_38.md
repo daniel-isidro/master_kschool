@@ -93,3 +93,17 @@ A DataFrame of 1 column is not the same as the column of the DataFrame
 ```df.select['id']``` does not equal ```df['id']```
 
 DataFrames in spark are immutable. We need to create new DataFrames with the appropriate columns
+
+**User Defined Functions**
+
+with ```functions.udf``` which returns another function, we can use any function and apply it to the DataFrame columns
+
+**cache**
+
+Useful for freezing the result of an action in a DataFrame when getting random results, for example
+
+```
+land = functions.udf(lambda : random.choice(['gondor', 'rohan']))
+df4 = df3.withColumn('land', land())
+df4.cache().show()
+```
