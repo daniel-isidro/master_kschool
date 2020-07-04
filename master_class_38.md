@@ -107,3 +107,11 @@ land = functions.udf(lambda : random.choice(['gondor', 'rohan']))
 df4 = df3.withColumn('land', land())
 df4.cache().show()
 ```
+
+**```select```and ```withColumn```**
+
+```df.witchColumn``` allows to add one column, ```df.select``` allow to add/remove several columns
+
+**pandas and spark DataFrames**
+
+When writing spark DataFrames into CSVs, thes CSV files are in relaity containers of as many CSV files as partitions were in the cluster
