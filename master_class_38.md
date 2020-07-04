@@ -15,7 +15,7 @@
 ```map``` is a Higher Order Function (HOF) that takes a function f and a sequence and returns a new sequence formed by applying f to each element in the original sequence.
 
 When using ```map``` to repace lambda functions, regular functions like ```square()``` **must be referred withouth arguments** (without parenthesis):
-```
+```python
 input_list = [1, 2, 3]
 
 list(map(square, input_list))
@@ -44,13 +44,13 @@ Functions must be commutative and associative to be used in distributed computin
 ### Side note
 In Python 2, map and filter returned lists. In Python 3, they return generators, which are lazy collections. They are somewhat similar to files in that **they can be depleted of elements after iterating through them**.
 
-```
+```python
 this_map = map(lambda x: (x**2, x, 1), numbers)
 list(this_map)
 ```
 
 Output:
-```
+```python
 [(144, 12, 1),
  (289, 17, 1),
  (361, 19, 1),
