@@ -117,3 +117,18 @@ df4.cache().show()
 When writing spark DataFrames into CSVs, thes CSV files are in relaity containers of as many CSV files as partitions were in the cluster
 
 it is recommended using spark DataFrames instead of rdd, as their use is similar to pandas
+
+**Packagin python code into .py file scripts**
+
+Useful for not running main function code whrn imorting python scripts into other projects:
+
+```python
+if __name__=='__main__':
+```
+
+Useful for running .py pyhton scripts with arguments:
+
+```python
+file = sys.argv[1]
+out = sys.argv[2]
+```
