@@ -118,9 +118,9 @@ When writing spark DataFrames into CSVs, thes CSV files are in relaity container
 
 it is recommended using spark DataFrames instead of rdd, as their use is similar to pandas
 
-**Packagin python code into .py file scripts**
+**Packaging python code into .py file scripts**
 
-Useful for not running main function code whrn imorting python scripts into other projects:
+Useful for not running main function code when imorting python scripts into other projects:
 
 ```python
 if __name__=='__main__':
