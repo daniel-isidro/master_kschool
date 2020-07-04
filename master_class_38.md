@@ -115,3 +115,5 @@ df4.cache().show()
 **pandas and spark DataFrames**
 
 When writing spark DataFrames into CSVs, thes CSV files are in relaity containers of as many CSV files as partitions were in the cluster
+
+it is recommended using spark DataFrames instead of rdd, as their use is similar to pandas
