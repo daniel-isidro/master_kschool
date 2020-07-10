@@ -4,6 +4,7 @@
 **TIP** Use ```df.count()``` to check an action has been applied to all rows of a spark DataFrame. Do not use ```df.show()```
 
 **ML Pipelines in Spark**
+
 ML model training and tuning often represents running the same steps once and again. Often, we run the same steps with small variations in order to evaluate combinations of parameters.
 
 In order to make this use case a lot easier, Spark provides the Pipeline abstraction.
