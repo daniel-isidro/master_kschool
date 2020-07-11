@@ -13,3 +13,7 @@ A Pipeline represents a series of steps in the processing of a dataset. Each ste
 
 **TIP** When doind string indexer, rename columns with ```_index```, and the same for one-hot encoded columns, they should end with ```_onehot```
 
+**TIP** For showing what parameters have been selected ```split_model_chosen.bestModel.stages[-1].extractParamMap()```
+
+
+
