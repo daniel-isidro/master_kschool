@@ -17,5 +17,15 @@ A Pipeline represents a series of steps in the processing of a dataset. Each ste
 
 **TIP** Use UDF for segmenting numeric values into segment values
 
+**TIP** Use ```%store``` to share vars between Jupyter notebooks. Rename the vars to not overwrite them in the second notebook
 
+Publish vars:
+```python
+fpr_new = fpr
+tpr_new = tpr
+%store fpr_new, tpr_new
+```
 
+To retrieve vars:
+```python
+%store -r
