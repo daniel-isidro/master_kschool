@@ -10,3 +10,6 @@ ML model training and tuning often represents running the same steps once and ag
 In order to make this use case a lot easier, Spark provides the Pipeline abstraction.
 
 A Pipeline represents a series of steps in the processing of a dataset. Each step is a Transformer or an Estimator. The whole Pipeline is an Estimator, so we can .fit the whole pipeline in one step. When we do that, the steps' .fit and .transform methods will be called in turn.
+
+**TIP** When doind string indexer, rename columns with ```_index```, and the same for one-hot encoded columns, they should end with ```_onehot```
+
