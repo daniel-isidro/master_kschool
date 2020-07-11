@@ -15,5 +15,7 @@ A Pipeline represents a series of steps in the processing of a dataset. Each ste
 
 **TIP** For showing what parameters have been selected ```split_model_chosen.bestModel.stages[-1].extractParamMap()```
 
+**TIP** Use UDF for segmenting numeric values into segment values
+
 
 
