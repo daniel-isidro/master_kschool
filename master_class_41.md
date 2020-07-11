@@ -3,7 +3,7 @@
 
 **TIP** Use ```df.count()``` to check an action has been applied to all rows of a spark DataFrame. Do not use ```df.show()```
 
-**ML Pipelines in Spark**
+### ML Pipelines in Spark
 
 ML model training and tuning often represents running the same steps once and again. Often, we run the same steps with small variations in order to evaluate combinations of parameters.
 
@@ -29,3 +29,17 @@ tpr_new = tpr
 To retrieve vars:
 ```python
 %store -r
+```
+
+### Spark jobs in Google Cloud Platform
+
+* You can work with the web console or with the terminal (installing gcloud SDK)
+```gcloud init```
+
+* Create cluster: Console -> Storage -> Create Bucket
+
+* Use dataproc type clusters in GCP to use spark on them
+
+```gcloud dataproc clusters create $CLUSTERNAME --region $REGION```
+
+* View cluster: Console -> Big Data -> Clusters
