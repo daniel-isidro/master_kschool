@@ -8,6 +8,19 @@
 
 * In Altair, you cannot export images into a fodler (unlike in matplotlib, with ```plt.savefig('image.png')```)
 
+* For working with large datasets in Altair, use groupby:
+
+```python
+temp = weather_df.groupby('country').mean().reset_index()
+
+alt.Chart(temp).mark_bar().encode(
+    x='country',
+    y='mean(temp)'
+)
+```
+
+
+
 
 
 
