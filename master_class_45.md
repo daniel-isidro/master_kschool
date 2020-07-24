@@ -19,8 +19,4 @@ alt.Chart(temp).mark_bar().encode(
 )
 ```
 
-
-
-
-
-
+* When working with maps, you need to give a TopoJSON URL to Altair for drawing the countries/cities/neighborhoods
