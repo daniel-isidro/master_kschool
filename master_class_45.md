@@ -1,8 +1,8 @@
 # Advanced Visualizations
 ## Sébastien Pérez, DS, Amadeus
-### Vega-Lite: a Grammar of Interactive Graphics
+### Altair
 
-* **Altair:** High-level API from the Vega-Lite JSON schema
+* **Altair:** Altair is a declarative statistical visualization library for Python, based on Vega and Vega-Lite, and the source is available on GitHub
 
 * When using Altair, always copy and paste column names from ```dataframe.columns```
 
