@@ -49,3 +49,6 @@ alt.Chart(temp).mark_bar().encode(
 
 * You can show the data table with ```st.dataframe(df.head())``` (can be reordered), and ```st.table(df.head())``` (static)
 
+* **Always encapsulate the ML models with ```@st.cache```**
+
+* For the deployment, three files are needed: .py file, requirements.txt (python libraries used), Dockerfile (instructions for running the streamlit server)
