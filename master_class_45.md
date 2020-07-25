@@ -33,3 +33,10 @@ alt.Chart(temp).mark_bar().encode(
 
 * DRAW SVG is a free online drawing editor with additional tools for generating, optimizing, converting your drawings and sharing them with a community.
 
+### Streamlit
+
+* It has revolutionized the way DS present their work, as it removes the need of programming web services and web pages
+
+* It can be run locally, but if used on Google Colab the Streamlit server can be accessed with the mobile phone
+
+* We can use ```ngrok``` to tunnel the Streamlit server, that is blocked from the outside of the Google Colab servers, so it can be accessed from the internet
