@@ -24,3 +24,12 @@ alt.Chart(temp).mark_bar().encode(
 * We can also work with the ```folium``` library for maps
 
 * Themes in Altair are configured with a config dictionary
+
+### DRAW SVG
+
+```python
+!pip install drawSvg
+```
+
+* DRAW SVG is a free online drawing editor with additional tools for generating, optimizing, converting your drawings and sharing them with a community.
+
