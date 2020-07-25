@@ -40,3 +40,6 @@ alt.Chart(temp).mark_bar().encode(
 * It can be run locally, but if used on Google Colab the Streamlit server can be accessed with the mobile phone
 
 * We can use ```ngrok``` to tunnel the Streamlit server, that is blocked from the outside of the Google Colab servers, so it can be accessed from the internet
+
+* ```streamlit``` can only run the code in one .py file
+
