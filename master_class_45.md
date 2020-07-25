@@ -41,5 +41,11 @@ alt.Chart(temp).mark_bar().encode(
 
 * We can use ```ngrok``` to tunnel the Streamlit server, that is blocked from the outside of the Google Colab servers, so it can be accessed from the internet
 
-* ```streamlit``` can only run the code in one .py file
+* streamlit can only run the code in one .py file
+
+* streamlit allows to cache CSV files with ```@st.cache```
+
+* In ```st.text_input()``` you can have default text
+
+* You can show the data table with ```st.dataframe(df.head())``` (can be reordered), and ```st.table(df.head())``` (static)
 
