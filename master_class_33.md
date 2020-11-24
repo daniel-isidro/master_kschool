@@ -23,7 +23,7 @@ Every layer changes the size of the input. A neural network is a series of layer
 
 Every layer usually has less neurons than the previous one
   
-Training process: backpropragation algorythm, specifically gradient descent algorythms
+Training process: backpropragation algorithm, specifically gradient descent algorithms
 
 Keras would be the equivalent to pandas, tensorflow to numpy
 
